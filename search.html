@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0"> 
+        <link rel="icon" type="image/jpg" href="download.jpg">
+        <link rel="stylesheet" href="style5.css">
+        <title>EMS</title>
+    </head>
+<body>
+    
+    <h1>ENVIRONMENT MANAGEMENT SYSTEM</h1>
+   <nav>
+    <div class="nav-menu">
+        <ul>
+         <li><a href="EMS.html"  class="link ">Home</a></li>   
+          <li><a href="Notifications.HTML" class="link ">Notifications</a></li>
+          <li><a href="AboutUs.html" class="link ">AboutUs</a></li>
+          <li><a href="Contact.html" class="link ">Contact</a></li>
+          <li><a href="Contact.html" class="link ">Contact</a></li>
+          <li><a href="search.html" class="link active ">Search</a></li>
+          <div class="nav-button">
+            <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+            <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>       
+        </div>      
+        </ul> 
+    </div>
+   </nav>
+   <main>
+   
+        <h1>Search</h1>
+        <form action="" class="search-form">
+            <input type="search " id="search-input" placeholder="search">
+            <button type="submit">Search</button>
+        </form>
+
+    <div id="search-results"></div>
+   </main>
+   <footer>
+    <li><a href="FAQ.html" class="link ">FAQ</a></li>
+   </footer>
+   
+   <script>
+     document.getElementById('loginBtn')
+        .addEventListener('click', function(){
+            window.location.href ='login.html'
+        });
+        document.getElementById('registerBtn')
+        .addEventListener('click', function(){
+            window.location.href ='Register.html'
+        });
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>

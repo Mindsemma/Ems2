@@ -1,0 +1,26 @@
+body{
+    background-color: crimson;
+    border-style: dashed;
+    border-color: black;
+    border-bottom-left-radius: ;
+}
+main{
+    border-radius: 50px;
+    box-sizing: content-box;
+    border-left: 50px;
+    border-right: 50px;
+    border-top: 25px;
+    border-width: 25px;
+    background-color: aqua;
+    color: black;
+    background: scroll;
+}
+h1{
+    color: blue;
+}
+.even{
+    color: green;
+}
+.odd{
+    color: darkred;
+}
